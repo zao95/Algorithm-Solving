@@ -7,11 +7,29 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "프로그램 시작",
+            "name": "Bubble Sort",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\problem\\sort\\bubble.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Quick Sort - Stable",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\problem\\sort\\quick_stable.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Quick Sort - Unstable",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\problem\\sort\\quick_unstable.js"
         }
     ]
 }
